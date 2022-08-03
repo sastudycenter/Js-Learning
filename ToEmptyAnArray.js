@@ -1,0 +1,9 @@
+var arrayList =  ['a', 'b', 'c', 'd', 'e', 'f'];
+
+//Method 1
+// arrayList =  [];
+//Method 2
+//arrayList.length = 0;
+//Method 3
+arrayList.splice(0, arrayList.length);
+console.log(arrayList)
